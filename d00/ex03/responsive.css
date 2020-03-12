@@ -1,0 +1,89 @@
+body{
+    background-image: url('https://websitebackgrounds.itpresent.com/graphics/images/class_cz.jpg');
+    text-align: center;
+}
+table{
+    text-align: center;
+    margin: 3%;
+    width: 95%;
+}
+h1{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 4vw;
+}
+div{
+	text-align: center;
+}
+img{
+    width: 35%;
+    border: 2px solid #fcfcfc;
+}
+p{
+    color: white;
+	font-size: 1vw;
+}
+.elem{
+    transition: 0.3s all;
+    font-size: 1vw;
+    border: 1px; 
+}
+.elem:hover{
+    transform: scale(1.5);
+    border: 1px solid #262625;
+}
+.nonmetals{
+    background-color: #4bd2de;
+}
+.gas{
+    background-color: #ad70df;
+}
+.metaloid{
+    background-color: #7cd6a4;
+}
+.alcali-metals{
+    background-color: #ec5c68;
+}
+.halogens{
+    background-color: #4b95de;
+}
+.post-tr-metals{
+     background-color: #92e74ce5;
+}
+.alcaline{
+    background-color: #e69a36;
+}
+.metals{
+    background-color: #e9dc26;
+}
+
+.lanthanoids{
+    background-color: #e792c1;
+}
+.actinoids{
+    background-color: #b64675;
+}
+#gold:hover
+{
+    transform: scale(2.0);
+    background-color: gold;
+}
+.mass{
+    float: right;
+    font-size: 70%;
+}
+.num{
+    float: left;
+    font-size: 70%;
+}
+.S{
+    font-size: 200%;
+    font-weight: bold;
+}
+.name{
+    font-size: 70%;
+}
+#special{
+    text-align: center;
+    font-size: 70%;
+}

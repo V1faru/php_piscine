@@ -1,0 +1,137 @@
+body{
+	background-color: #5d5e5f;
+}
+.blocks{
+	background-color: #909090;
+	border-radius: 10px;
+	box-shadow: 10px 10px 7px black;
+}
+.block1{
+	margin-right: 12%;
+	margin-left: 12%;
+	margin-top: 20px;
+	position: relative;
+}
+#day42{
+	width: 35%;
+	padding: 15px;
+}
+#loupe{
+	width: 25%;
+	margin-left: 30%;
+	position: absolute;
+}
+#two-top{
+    float: right;
+	height: auto;
+	margin-right: 10px;
+	display: inline-block;
+	width: 3%;
+}
+#reload {
+	width: 60%;
+	margin-top: 20%;
+	margin-left: 35%;
+}
+#close {
+	width: 60%;
+	margin-top: 210%;
+	margin-left: 35%;
+}
+#cluster{
+	width: 98%;
+	padding: 10px;
+}
+#ikea {
+	width:10%;
+	height: 43px;
+	float: right;
+	margin-top: -22%;
+	margin-right: 57%;
+	position: relative;
+}
+
+#apple {
+	width:20%;
+	height: 43px;
+	float: right;
+	margin-top: -22%;
+	margin-right: 0%;
+	position: relative;
+}
+.icon{
+	display:block;
+	width:40%;
+	margin:auto;
+	margin-top:10%;
+}
+.left{
+	width: 8%;
+	float: left;
+	margin-left: 15%;
+	margin-top: 2%;
+}
+.mid{
+	margin-top: 2%;
+	float: left;
+	margin-left: 2%;
+	text-align: center;
+	width: 50%;
+}
+.right{
+	width: 8%;
+	margin-top: 2%;
+	float: right;
+	margin-right: 15%;
+	padding-bottom: 6%;
+}
+#eye{
+	border: 2px solid red;
+	border-radius: 10px;
+	padding: 1%;
+}
+#wall{
+	margin: 10%;
+	background-image: url(resources/brick.jpg);
+	background-repeat: repeat;
+	background-size: 27%
+}
+.wall{
+	display: block;
+	width: 27.3%;
+}
+.green-box{
+	display: inline-block;
+	font-size: 1vw;
+	width: 25%;
+	height: 30%;
+	margin-top: -4%;
+	margin-left: 10%;
+	text-align: left;
+	padding: 1%;
+	padding-bottom: 4%;
+    background-color: #98FB98;
+    font-family: sans-serif;
+}
+#button{
+	width: 20%;
+    height: 30%;
+}
+#input{
+	width: 70%;
+    height: 30%;
+    
+}
+#big{
+	font-size: 2vw;
+	font-family: Georgia;
+}
+
+#italic{
+    font-style: italic;
+    margin-bottom: 2px;
+}
+
+#shadow{
+	text-shadow: 6px 6px 5px red;
+}
