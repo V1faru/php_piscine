@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style type="text/css">
+        body {
+            background: rgb(125, 231, 125);
+            text-align: center;
+        }
+        h3 {
+            margin-top: -1%;
+        }
+
+        hr {
+            margin-top: -6%;
+            border: 0;
+            height: 1px;
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+        }
+        #block {
+            margin-top: 15%;
+            background: rgb(233, 214, 131);
+            width: 10%;
+            display: inline-block;
+            padding-top: 0.2%;
+        }
+
+        #buttn {
+            margin-top: 2%;
+            float: left;
+            margin-left: 4%;
+            margin-bottom: 2%;
+        }
+        label {
+            float: left;
+            margin-left: 4%;
+        }
+
+        a {
+            float: left;
+            margin-left: 4%;
+        }
+        #last_link {
+            margin-bottom: 2%;
+        }
+    </style>
+</head>
+<body>
+    <div id="block">
+        <h3>Login</h3>
+        <hr>
+        <form method="post" action="./login.php">
+            <label for="login">Username:</label><br>
+            <input type="text" name="login" placeholder="Enter Username"></br>
+            <label for="passwd">Password:</label><br>
+            <input type="password" name="passwd" placeholder="Enter Password"><br>
+            <input id="buttn" type="submit" name="submit" value="OK">
+        </form>
+        <br><br>
+        <a href="create.html">Create an account</a><br>
+		<a id="last_link" href="modif.html">Change Password</a>
+    </div>  
+</body>
+</html>
